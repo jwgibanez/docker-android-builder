@@ -16,4 +16,5 @@ RUN gem install fastlane -NV
 
 # Clear ram
 COPY clearRAM.sh .
-RUN clearRAM.sh
+RUN ls
+RUN ./clearRAM.sh

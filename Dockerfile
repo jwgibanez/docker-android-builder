@@ -15,6 +15,9 @@ RUN apt-get -y install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 RUN gem install fastlane -NV
 
 # Clear ram
-COPY clearRAM.sh .
-RUN ls
-RUN ./clearRAM.sh
+#COPY clearRAM.sh .
+#RUN ls
+#RUN apt-get install bc
+#RUN apt-get install sudo
+#RUN chmod +x ./clearRAM.sh
+#RUN ./clearRAM.sh

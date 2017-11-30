@@ -13,3 +13,6 @@ RUN apt-get -y install ruby-full
 # Install fastlane
 RUN apt-get -y install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 RUN gem install fastlane -NV
+
+# Clear ram
+RUN /clearRAM.sh
